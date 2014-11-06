@@ -1,0 +1,72 @@
+!-*-{ Xft settings
+Xft*dpi:              96
+Xft*antialias:        True
+Xft*hinting:          None
+!-*-}
+
+urxvt.perl-ext-common:  default,matcher
+urxvt.url-launcher:      /usr/bin/firefox
+urxvt.matcher.button:   1
+urxvt.scrollBar: false
+*font:             xft:Terminus:Regular:pixelsize=10
+*boldFont:         xft:Terminus:bold:pixelsize=10
+urxvt.transparent: true
+*.shading: 20
+
+Xcursor.theme: Xcursor
+
+! --- special colors ---
+
+*background: #0d1926
+*foreground: #d9e6f2
+
+! --- standard colors ---
+
+! black
+*color0: #000000
+
+! bright_black
+*color8: #505050
+
+! red
+*color1: #98333a
+
+! bright_red
+*color9: #e5b3b6
+
+! green
+*color2: #3a9833
+
+! bright_green
+*color10: #b6e5b3
+
+! yellow
+*color3: #989133
+
+! bright_yellow
+*color11: #e5e2b3
+
+! blue
+*color4: #333a98
+
+! bright_blue
+*color12: #b3b6e5
+
+! magenta
+*color5: #913398
+
+! bright_magenta
+*color13: #e2b3e5
+
+! cyan
+*color6: #339891
+
+! bright_cyan
+*color14: #b3e5e2
+
+! white
+*color7: #d9d9d9
+
+! bright_white
+*color15: #ffffff
+
