@@ -1,0 +1,6 @@
+#content browser{margin-right:-14px !important;
+overflow-y:scroll; overflow-x:hidden;}
+
+.tab-close-button{display:none !important;}
+
+#nav-bar, #urlbar-container, #search-container, #openLocation { display:none!important; }
