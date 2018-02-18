@@ -1,72 +1,59 @@
-!-*-{ Xft settings
 Xft*dpi:              96
 Xft*antialias:        True
 Xft*hinting:          None
-!-*-}
 
-urxvt.perl-ext-common:  default,matcher
-urxvt.url-launcher:      /usr/bin/firefox
-urxvt.matcher.button:   1
 urxvt.scrollBar: false
-*font:             xft:Terminus:Regular:pixelsize=10
-*boldFont:         xft:Terminus:bold:pixelsize=10
-urxvt.transparent: true
-*.shading: 20
-
 Xcursor.theme: Xcursor
+!*.font: xft:Inconsolata:size=9
+URxvt.font:xft:xos4 Terminus:size=9
 
-! --- special colors ---
+!TomorrowNightEighties
+#define t_background            #2d2d2d
+#define t_current_line          #393939
+#define t_selection      	#515151
+#define t_foreground      	#cccccc
+#define t_comment	     	#999999
+#define t_red		     	#f2777a
+#define t_orange	     	#f99157
+#define t_yellow        	#ffcc66
+#define t_green	        	#99cc99
+#define t_aqua	        	#66cccc
+#define t_blue	        	#6699cc
+#define t_purple        	#cc99cc
 
-*background: #0d1926
-*foreground: #d9e6f2
-
-! --- standard colors ---
+! special
+*.foreground:   #f1ebeb
+*.background:   #272822
+*.cursorColor:  #f1ebeb
 
 ! black
-*color0: #000000
-
-! bright_black
-*color8: #505050
+*.color0:       #48483e
+*.color8:       #76715e
 
 ! red
-*color1: #98333a
-
-! bright_red
-*color9: #e5b3b6
+*.color1:       #dc2566
+*.color9:       #fa2772
 
 ! green
-*color2: #3a9833
-
-! bright_green
-*color10: #b6e5b3
+*.color2:       #8fc029
+*.color10:      #a7e22e
 
 ! yellow
-*color3: #989133
-
-! bright_yellow
-*color11: #e5e2b3
+*.color3:       #d4c96e
+*.color11:      #e7db75
 
 ! blue
-*color4: #333a98
-
-! bright_blue
-*color12: #b3b6e5
+*.color4:       #55bcce
+*.color12:      #66d9ee
 
 ! magenta
-*color5: #913398
-
-! bright_magenta
-*color13: #e2b3e5
+*.color5:       #9358fe
+*.color13:      #ae82ff
 
 ! cyan
-*color6: #339891
-
-! bright_cyan
-*color14: #b3e5e2
+*.color6:       #56b7a5
+*.color14:      #66efd5
 
 ! white
-*color7: #d9d9d9
-
-! bright_white
-*color15: #ffffff
-
+*.color7:       #acada1
+*.color15:      #cfd0c2
