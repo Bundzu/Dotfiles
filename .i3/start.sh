@@ -1,8 +1,9 @@
-feh --bg-scale ~/.wallpaper.jpg &
-pactl set-sink-volume 0 '20%' &
-xset m 23/10 &
+xset m 26/10 &
 export XDG_MENU_PREFIX=lxde- &
-urxvt -e sudo su &
+xrdb ~/.Xresources &
+xsetroot -solid '#101010' &
+urxvt &
 urxvt -e htop &
-thunderbird &
+claws-mail &
 pcmanfm &
+sleep 1; xset s off -dpms &
