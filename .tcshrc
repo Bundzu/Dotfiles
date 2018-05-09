@@ -1,0 +1,7 @@
+set implicitcd
+
+alias ytdl 'youtube-dl'
+alias pogoda './skrypty/pogoda'
+alias blue 'bluetoothctl'
+alias packages 'cat /var/lib/portage/world'
+alias configs 'eix-test-obsolete'
